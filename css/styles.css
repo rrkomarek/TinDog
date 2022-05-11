@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&family=Roboto&family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Montserrat', 'Nunito Sans', 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Nunito Sans', 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+
+  .test-font, .big-heading {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 3.5rem;
+  }  
+
+  .container-fluid {
+    padding: 7% 15%;
+  }
+  
+  .colored-section {
+    background-color: #ff4c68;
+    color: white;
+  }
+  
+  .white-section {
+    background-color: white;
+  }
+  
+  .peach-section{
+    background-color: #ef8172;
+    color: white;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+  }
+  
+  .navbar-brand {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .navbar {
+    padding-bottom: 4.5rem;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', 'Nunito Sans', 'Roboto', sans-serif;
+    font-weight: lighter;
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+  .title-image {
+    width: 300px;
+    transform: rotate3d(-4, 3, 2, 55deg);
+    position: absolute;
+    right: 25%;
+  }
+  
+  #features {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+  }
+  
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+  
+  .testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  #press {
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  #pricing {
+    padding: 100px;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+    #title .container-fluid{
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate3d(3, 1, 2, -60deg);
+      width: 200px;
+    }
+  }
+  
