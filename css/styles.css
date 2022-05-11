@@ -81,7 +81,11 @@ body {
     width: 300px;
     transform: rotate3d(-4, 3, 2, 55deg);
     position: absolute;
-    right: 25%;
+    right: 25%;    
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
   }
   
   #features {
@@ -138,6 +142,10 @@ body {
       position: static;
       transform: rotate3d(3, 1, 2, -60deg);
       width: 200px;
+      transition-property: transform;
+      transition-duration: 2s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
     }
   }
   
